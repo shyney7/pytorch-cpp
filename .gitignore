@@ -33,7 +33,6 @@
 
 # PyTorch
 libtorch/
-build/
 
 # Datasets
 data/
@@ -56,10 +55,13 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+build/
+cmake-build-*/
 
 # Other
 .DS_Store
 .idea/
+.clangd/
 
 # Notebooks
 .ipynb_checkpoints
@@ -67,3 +69,4 @@ _deps
 # extern
 extern/*
 !extern/CMakeLists.txt
+.vscode/
